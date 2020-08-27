@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-24T21:10:58.604Z",
+        "line": 2,
+        "name": "verify the login is working with right credentials",
+        "description": "",
+        "id": "verify-user-is-able-to-login-to-the-shopsite;verify-the-login-is-working-with-right-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14939775600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinition.MyStepdefs.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".primary\\-btn\\ btn\\ btn\\-default\\ modal\\-checkout\\ modal\\-checkout\\-enabled\"}\n  (Session info: chrome\u003d84.0.4147.135)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.10.0\u0027, revision: \u0027176b4a9\u0027, time: \u00272018-03-02T19:03:16.397Z\u0027\nSystem info: host: \u0027PCW1944409L\u0027, ip: \u002710.14.138.131\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\sgara11\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60242}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 43e0ac249da83dbaf3d6ead5f72f3a9c\n*** Element info: {Using\u003dclass name, value\u003dprimary-btn btn btn-default modal-checkout modal-checkout-enabled}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:391)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat StepDefinition.MyStepdefs.user_is_able_to_enter_credentials_and_press_login_button(MyStepdefs.java:44)\r\n\tat ✽.user is able to enter credentials and press login button(file:///C:/Users/sgara11/Documents/Digital-Automation-UI/Cucumber/src/main/java/login/login.feature:4)\r\n",
+              "duration": 33441420600,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user is able to enter credentials and press login button",
+            "match": {
+              "location": "StepDefinition.MyStepdefs.user_is_able_to_enter_credentials_and_press_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is navigated to the login page",
+            "match": {
+              "location": "StepDefinition.MyStepdefs.user_is_navigated_to_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify user is able to login to the shopsite",
+    "description": "",
+    "id": "verify-user-is-able-to-login-to-the-shopsite",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/login/login.feature",
+    "tags": []
+  }
+]
